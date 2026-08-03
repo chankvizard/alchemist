@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-03T17:49:12.230965+07:00",
+  "generatedAt": "2026-08-03T19:10:48.935855+07:00",
   "scanDate": "2026-08-03",
   "universeSize": 63,
   "scanned": 62,
   "errors": 1,
   "priceFiltered": 28,
-  "elapsedSec": 16.5,
+  "elapsedSec": 15.1,
   "sources": {
     "yahoo": 62,
     "ohlcdev": 0,
