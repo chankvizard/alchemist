@@ -2,6 +2,7 @@
 alchemist_cache.json
 __pycache__/
 *.pyc
+.venv
 
 # Results (keep latest.json, ignore history)
 results/history/
@@ -13,3 +14,5 @@ web/dist/
 # OS
 .DS_Store
 Thumbs.db
+
+.idea
