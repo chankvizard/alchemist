@@ -1,0 +1,15 @@
+# Python
+alchemist_cache.json
+__pycache__/
+*.pyc
+
+# Results (keep latest.json, ignore history)
+results/history/
+
+# Web
+web/node_modules/
+web/dist/
+
+# OS
+.DS_Store
+Thumbs.db

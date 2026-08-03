@@ -1,0 +1,4 @@
+# Alchemist Scanner v3 — no third-party packages required
+# All dependencies are Python stdlib: json, os, re, sys, time, urllib
+# If you later want yfinance as an alternative Yahoo wrapper, uncomment:
+# yfinance>=0.2.40
