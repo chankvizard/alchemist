@@ -3,7 +3,8 @@ import { useState, useEffect, useMemo } from 'react'
 // ─── CONFIG ──────────────────────────────────────────────────
 // For local testing: put your latest.json in web/public/results/latest.json
 // For production: change to your raw GitHub URL
-const DATA_URL = import.meta.env.VITE_DATA_URL || '/results/latest.json'
+const DATA_URL = import.meta.env.VITE_DATA_URL
+  || 'https://raw.githubusercontent.com/chankvizard/alchemist/main/results/latest.json'
 
 // ─── HELPERS ─────────────────────────────────────────────────
 const fmt = (n) => n == null ? '—' : `Rp ${Number(n).toLocaleString('id-ID')}`
