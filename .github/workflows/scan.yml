@@ -21,6 +21,9 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Ensure results directory exists
+        run: mkdir -p results/history
+
       - name: Run scanner
         run: python alchemist_scanner_v3.py
 
