@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 
 // ─── CONFIG ──────────────────────────────────────────────────
 // For local testing: put your latest.json in web/public/results/latest.json
@@ -424,6 +425,7 @@ export default function App() {
         ALCHEMIST v3 · Algorithmic signals only · Not financial advice<br />
         Always verify with price action, news, and market conditions before entry
       </footer>
+      <Analytics />
     </div>
   )
 }
