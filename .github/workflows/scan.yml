@@ -24,6 +24,9 @@ jobs:
       - name: Ensure results directory exists
         run: mkdir -p results/history
 
+      - name: Prepare ticker list
+        run: cp idx_stock_codes.txt ~/
+      
       - name: Run scanner
         run: python alchemist_scanner_v3.py
 
